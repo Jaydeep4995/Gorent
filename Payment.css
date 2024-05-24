@@ -1,0 +1,903 @@
+.logo6 {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  width: 148px;
+  height: 44px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.button4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-51xl);
+  background-color: var(--primary-0);
+  border: 1px solid var(--color-lightsteelblue-100);
+  box-sizing: border-box;
+  width: 492px;
+  height: 44px;
+}
+.search-something-here4 {
+  position: absolute;
+  top: 12px;
+  left: 64px;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 149px;
+  height: 20px;
+}
+.search-normal-icon4,
+.vuesaxlinearfilter-icon4 {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 24px;
+  height: 24px;
+}
+.vuesaxlinearfilter-icon4 {
+  left: 448px;
+}
+.profile-icon3,
+.search4 {
+  position: relative;
+  height: 44px;
+}
+.search4 {
+  width: 492px;
+  text-align: justify;
+  font-size: var(--bold-type14-size);
+  color: var(--secondary-400);
+}
+.profile-icon3 {
+  width: 236px;
+}
+.frame-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-lightblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-41xl) var(--padding-21xl)
+    var(--padding-13xl);
+  gap: var(--gap-215xl);
+  font-size: var(--bold-type32-size);
+  color: var(--color-darkslateblue);
+}
+.categorysedan,
+.volkswagen-virtus3 {
+  position: absolute;
+  left: 80px;
+  letter-spacing: -0.03em;
+  line-height: 150%;
+}
+.volkswagen-virtus3 {
+  top: 31px;
+  font-size: var(--font-size-19xl);
+  display: flex;
+  align-items: center;
+  width: 409px;
+  height: 24px;
+}
+.categorysedan {
+  top: 76px;
+  font-size: 19px;
+  color: var(--color-black);
+}
+.bg3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-0);
+  width: 582px;
+  height: 136px;
+}
+.pick-up5,
+.pick-up6 {
+  display: flex;
+  align-items: center;
+}
+.pick-up6 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  width: 92px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.pick-up5 {
+  position: absolute;
+  top: 24px;
+  left: 48px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.locations5,
+.select-your-city5 {
+  position: relative;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  flex-shrink: 0;
+}
+.locations5 {
+  line-height: 150%;
+  width: 77px;
+}
+.select-your-city5 {
+  font-weight: 500;
+  width: 104px;
+}
+.locations4,
+.select-your-city4 {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.select-your-city4 {
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--regular-12p-size);
+  color: var(--secondary-300);
+}
+.locations4 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.pick-up-inner {
+  position: relative;
+  border-right: 1px solid var(--color-lightsteelblue-100);
+  box-sizing: border-box;
+  width: 1px;
+  height: 49px;
+}
+.date5,
+.select-your-date5,
+.select-your-time5 {
+  position: relative;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  flex-shrink: 0;
+}
+.date5 {
+  line-height: 150%;
+  width: 48px;
+}
+.select-your-date5,
+.select-your-time5 {
+  font-weight: 500;
+  width: 112px;
+}
+.select-your-time5 {
+  width: 108px;
+}
+.pick-up7 {
+  position: absolute;
+  top: 60px;
+  left: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.pick-up4 {
+  position: absolute;
+  top: 177px;
+  left: 44px;
+  border-radius: var(--br-3xs);
+  width: 582px;
+  height: 132px;
+  overflow: hidden;
+}
+.select-your-city7 {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 200%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 104px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.bg5,
+.drop-off4 {
+  position: absolute;
+  border-radius: var(--br-3xs);
+  width: 582px;
+}
+.drop-off4 {
+  top: 351px;
+  left: 44px;
+  height: 132px;
+  overflow: hidden;
+}
+.bg5 {
+  top: 0;
+  left: 0;
+  background-color: var(--primary-0);
+  height: 100px;
+}
+.driver-age {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 101px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.enter-your-age,
+.select-your-city8 {
+  position: absolute;
+  top: 58px;
+  left: 48px;
+}
+.enter-your-age {
+  top: 24px;
+  left: 152px;
+  font-size: var(--regular-12p-size);
+  letter-spacing: -0.01em;
+  line-height: 200%;
+  font-weight: 500;
+  color: var(--secondary-300);
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+  width: 104px;
+  height: 20px;
+}
+.drop-off8 {
+  top: 525px;
+  left: 44px;
+  border-radius: var(--br-3xs);
+  width: 582px;
+  height: 78px;
+}
+.drop-off8,
+.frame-child2,
+.vector-icon9 {
+  position: absolute;
+  overflow: hidden;
+}
+.frame-child2 {
+  top: 211px;
+  left: 719px;
+  width: 686px;
+  height: 299px;
+  object-fit: cover;
+}
+.vector-icon9 {
+  height: 100%;
+  width: 13.33%;
+  top: 0;
+  right: 86.67%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.free-cancellation {
+  position: absolute;
+  top: 9px;
+  left: 60px;
+  line-height: 20px;
+}
+.cancel,
+.vector-icon10 {
+  position: absolute;
+  height: 7.06%;
+  width: 20.3%;
+  top: 37.55%;
+  right: 76.28%;
+  bottom: 55.39%;
+  left: 3.42%;
+}
+.vector-icon10 {
+  height: 100%;
+  width: 13.19%;
+  top: 0;
+  right: 86.81%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.cancel1 {
+  position: absolute;
+  height: 7.06%;
+  width: 20.51%;
+  top: 52.23%;
+  right: 76.07%;
+  bottom: 40.71%;
+  left: 3.42%;
+}
+.rental-conditions {
+  position: absolute;
+  top: 6px;
+  left: 59px;
+  line-height: 20px;
+}
+.vector-icon11 {
+  position: absolute;
+  height: 100%;
+  width: 12.07%;
+  top: 0;
+  right: 87.93%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.cancel2 {
+  position: absolute;
+  top: 360px;
+  left: 51px;
+  width: 290px;
+  height: 35px;
+  color: var(--color-red);
+}
+.icon-manual-gearbox3,
+.vector-icon12,
+.vector-icon13,
+.vector-icon14 {
+  position: absolute;
+  height: 5.39%;
+  width: 2.71%;
+  top: 11.52%;
+  right: 93.59%;
+  bottom: 83.09%;
+  left: 3.7%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-manual-gearbox3,
+.vector-icon13,
+.vector-icon14 {
+  top: 23.05%;
+  bottom: 71.56%;
+}
+.icon-manual-gearbox3,
+.vector-icon14 {
+  height: 5.97%;
+  width: 2.57%;
+  top: 11.88%;
+  right: 73.5%;
+  bottom: 82.14%;
+  left: 23.93%;
+}
+.icon-manual-gearbox3 {
+  height: 5.95%;
+  width: 2.42%;
+  top: 23.98%;
+  right: 73.58%;
+  bottom: 70.07%;
+  left: 24%;
+}
+.doors3,
+.gps3,
+.manual23,
+.passengers3 {
+  position: absolute;
+  top: 70px;
+  left: 117px;
+  line-height: 20px;
+}
+.doors3,
+.gps3,
+.manual23 {
+  top: 129px;
+}
+.gps3,
+.manual23 {
+  top: 65px;
+  left: 402px;
+}
+.manual23 {
+  top: 130px;
+}
+.line4 {
+  position: absolute;
+  top: -0.5px;
+  left: 701.5px;
+  border-right: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  width: 1px;
+  height: 539px;
+}
+.payment-method-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-0);
+  box-shadow: var(--shadow-1);
+}
+.payment-method1,
+.we-protect-your {
+  position: absolute;
+  top: 5.95%;
+  left: 3.51%;
+  line-height: 20px;
+}
+.we-protect-your {
+  top: 10.71%;
+  left: 7.35%;
+}
+.group-child {
+  position: absolute;
+  height: 100%;
+  width: 5.42%;
+  top: 0;
+  right: 94.58%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.we-protect-your-payment-inform-parent {
+  position: absolute;
+  height: 6.17%;
+  width: 90.7%;
+  top: 89.21%;
+  right: 4.91%;
+  bottom: 4.63%;
+  left: 4.39%;
+  font-size: var(--regular-12p-size);
+  color: var(--dark-dark-2);
+}
+.group-inner,
+.group-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+}
+.group-item {
+  background-color: var(--blue-blue-2);
+  opacity: 0.1;
+}
+.group-inner {
+  border: 1px solid var(--blue-blue-2);
+  box-sizing: border-box;
+}
+.group-icon {
+  position: absolute;
+  height: 13.64%;
+  width: 35.04%;
+  top: 5%;
+  right: 2.46%;
+  bottom: 81.36%;
+  left: 62.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.radio-button-icon {
+  position: relative;
+  width: 14px;
+  height: 14px;
+}
+.pay-with-credit {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.forms-child,
+.radio {
+  position: absolute;
+  left: 0;
+}
+.radio {
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--medium-type16-size);
+}
+.forms-child {
+  height: 75.86%;
+  width: 100%;
+  top: 24.14%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--blue-blue-2);
+  box-sizing: border-box;
+}
+.forms-inner,
+.forms-item {
+  position: absolute;
+  top: 29px;
+  right: 13px;
+  width: 14px;
+  height: 14px;
+}
+.forms-inner {
+  top: 34px;
+  right: 14px;
+  width: 9px;
+  height: 4.5px;
+  display: none;
+}
+.usernamegmailcom {
+  position: absolute;
+  width: calc(100% - 55px);
+  top: 26px;
+  left: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+}
+.email-address {
+  position: relative;
+  line-height: 20px;
+}
+.box,
+.email-address-wrapper,
+.forms {
+  position: absolute;
+  background-color: var(--grey-grey-2);
+}
+.email-address-wrapper {
+  top: 0;
+  left: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xs);
+  font-size: var(--regular-12p-size);
+  color: var(--dark-dark-2);
+}
+.box,
+.forms {
+  left: 0;
+}
+.forms {
+  top: 41px;
+  width: 255px;
+  height: 58px;
+  color: var(--dark-dark-3);
+}
+.box {
+  height: 75.86%;
+  width: 100%;
+  top: 24.14%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--dark-dark-1);
+  box-sizing: border-box;
+}
+.text {
+  width: calc(100% - 26px);
+  top: 26px;
+  left: 14px;
+  line-height: 20px;
+  display: inline-block;
+}
+.forms1,
+.label,
+.text {
+  position: absolute;
+}
+.label {
+  top: 0;
+  left: 6px;
+  background-color: var(--grey-grey-2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xs);
+  font-size: var(--regular-12p-size);
+}
+.forms1 {
+  top: 41px;
+  left: 273px;
+  width: 213px;
+  height: 58px;
+  color: var(--dark-dark-2);
+}
+.radio-parent {
+  top: 15px;
+  left: 19px;
+  width: 486px;
+  height: 99px;
+}
+.forms2,
+.radio-parent,
+.text1 {
+  position: absolute;
+}
+.text1 {
+  width: calc(100% - 26px);
+  top: 26px;
+  left: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+}
+.forms2 {
+  top: 0;
+  left: 0;
+  background-color: var(--grey-grey-2);
+  width: 255px;
+  height: 58px;
+}
+.what-is-this {
+  position: absolute;
+  top: 44.83%;
+  left: 79.59%;
+  font-size: var(--regular-12p-size);
+  line-height: 20px;
+  color: var(--blue-blue-1);
+}
+.forms-parent {
+  position: absolute;
+  top: 130px;
+  left: 21px;
+  width: 343px;
+  height: 58px;
+  color: var(--dark-dark-3);
+}
+.rectangle-parent {
+  position: absolute;
+  height: 48.46%;
+  width: 92.63%;
+  top: 36.34%;
+  right: 3.68%;
+  bottom: 15.2%;
+  left: 3.68%;
+  font-size: var(--semibold-15-size);
+}
+.component-80-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-0);
+  border: 1px solid var(--dark-dark-1);
+  box-sizing: border-box;
+}
+.you-will-be {
+  position: absolute;
+  width: calc(100% - 198px);
+  top: 22.97%;
+  left: 114px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+.paypal-icon {
+  position: absolute;
+  height: 40.54%;
+  top: 16.22%;
+  right: 12.5px;
+  bottom: 43.24%;
+  max-height: 100%;
+  width: 42.5px;
+}
+.radio1 {
+  position: absolute;
+  top: 17px;
+  left: 19px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--medium-type16-size);
+  color: var(--color-black);
+}
+.component-80 {
+  position: absolute;
+  height: 16.3%;
+  width: 92.63%;
+  top: 16.74%;
+  right: 3.68%;
+  bottom: 66.96%;
+  left: 3.68%;
+  font-size: var(--bold-type14-size);
+  color: var(--dark-dark-3);
+}
+.payment-method {
+  position: absolute;
+  top: 63px;
+  left: 780px;
+  width: 570px;
+  height: 454px;
+  font-size: var(--medium-type16-size);
+}
+.pay-now {
+  position: absolute;
+  top: 0;
+  left: 1008px;
+  line-height: 20px;
+}
+.cancel-parent {
+  position: absolute;
+  top: 650px;
+  left: 17px;
+  width: 1404px;
+  height: 538px;
+  overflow: hidden;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--semibold-16);
+}
+.total-price {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  letter-spacing: 0.02em;
+}
+.day47,
+.total-price {
+  font-weight: 600;
+}
+.day46 {
+  position: absolute;
+  top: 46px;
+  left: 0;
+  font-size: var(--font-size-12xl);
+  letter-spacing: 0.02em;
+  color: var(--color-gray-200);
+}
+.terms-and-conditions {
+  position: absolute;
+  top: 100px;
+  left: 1px;
+  font-size: var(--font-size-9xl);
+  text-decoration: underline;
+  line-height: 20px;
+  font-family: var(--semibold-16);
+  color: var(--color-red);
+}
+.book3 {
+  position: absolute;
+  top: 473px;
+  left: 708px;
+  width: 284px;
+  height: 120px;
+  font-size: var(--font-size-19xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.button-rental23,
+.finish-booking {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.finish-booking {
+  position: relative;
+  font-size: var(--font-size-7xl);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: var(--medium-type16);
+  color: var(--primary-0);
+  text-align: center;
+  width: 210px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.button-rental23 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-xl);
+  background-color: var(--color-cadetblue);
+  position: absolute;
+  top: 1355px;
+  right: 548px;
+  border-radius: var(--br-9xs);
+  width: 325px;
+  height: 84px;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.volkswagen-virtus-parent1 {
+  position: absolute;
+  top: 124px;
+  left: 0;
+  background-color: var(--color-lightblue);
+  width: 1437px;
+  height: 1484px;
+  overflow: hidden;
+}
+.gorent-all-rights4,
+.privacy-policy4,
+.terms-condition4 {
+  top: 38px;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  mix-blend-mode: normal;
+}
+.gorent-all-rights4 {
+  position: absolute;
+  left: 16px;
+  text-align: left;
+  width: 292px;
+}
+.privacy-policy4,
+.terms-condition4 {
+  width: 144px;
+}
+.terms-condition4 {
+  position: absolute;
+  left: 1192px;
+}
+.privacy-policy4 {
+  left: 988px;
+}
+.body3,
+.line5,
+.privacy-policy4 {
+  position: absolute;
+}
+.line5 {
+  top: -0.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  width: 1321px;
+  height: 1px;
+}
+.body3 {
+  top: 1622px;
+  left: 59px;
+  width: 1336px;
+  height: 62px;
+  text-align: right;
+}
+.payment {
+  position: relative;
+  background-color: var(--color-lightblue);
+  width: 100%;
+  height: 1731px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--medium-type16-size);
+  color: var(--secondary-500);
+  font-family: var(--medium-type16);
+}

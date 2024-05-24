@@ -1,0 +1,793 @@
+.logo3 {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  width: 148px;
+  height: 44px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.button1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-51xl);
+  background-color: var(--primary-0);
+  border: 1px solid var(--color-lightsteelblue-100);
+  box-sizing: border-box;
+  width: 492px;
+  height: 44px;
+}
+.search-something-here1 {
+  position: absolute;
+  top: 12px;
+  left: 64px;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 149px;
+  height: 20px;
+}
+.search-normal-icon1,
+.vuesaxlinearfilter-icon1 {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 24px;
+  height: 24px;
+}
+.vuesaxlinearfilter-icon1 {
+  left: 448px;
+}
+.profile-icon,
+.search1 {
+  position: relative;
+  height: 44px;
+}
+.search1 {
+  width: 492px;
+  text-align: justify;
+  font-size: var(--bold-type14-size);
+  color: var(--secondary-400);
+}
+.profile-icon {
+  width: 236px;
+}
+.logo-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-lightblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-41xl) var(--padding-21xl)
+    var(--padding-13xl);
+  gap: var(--gap-215xl);
+  color: var(--color-darkslateblue);
+}
+.colours,
+.exterior,
+.volkswagen-virtus {
+  letter-spacing: -0.03em;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+}
+.volkswagen-virtus {
+  position: absolute;
+  top: 31px;
+  left: 80px;
+  width: 409px;
+  height: 24px;
+}
+.colours,
+.exterior {
+  top: 0;
+  width: 128px;
+  cursor: pointer;
+}
+.exterior {
+  position: absolute;
+  left: 0;
+  height: 24px;
+}
+.colours {
+  left: 256px;
+}
+.colours,
+.exterior-parent,
+.interior {
+  position: absolute;
+  height: 24px;
+}
+.interior {
+  top: 0;
+  left: 128px;
+  letter-spacing: -0.03em;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  width: 128px;
+}
+.exterior-parent {
+  top: 107px;
+  left: 80px;
+  width: 384px;
+  font-size: var(--semibold-type20-size);
+}
+.frame-child {
+  position: absolute;
+  top: 152px;
+  left: 80px;
+  width: 793px;
+  height: 386px;
+  overflow: hidden;
+}
+.frame-item,
+.fule-child {
+  position: absolute;
+  box-sizing: border-box;
+}
+.frame-item {
+  top: 130.5px;
+  left: 207.5px;
+  border-top: 1px solid var(--color-black);
+  width: 88px;
+  height: 1px;
+}
+.fule-child {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  border: 2px solid var(--color-black);
+  width: 77px;
+  height: 76px;
+}
+.fuel {
+  position: absolute;
+  top: 40px;
+  left: 9px;
+  letter-spacing: 0.02em;
+}
+.icon-map-fuel {
+  height: 26.43%;
+  width: 26.09%;
+  top: 10.53%;
+  right: 63.52%;
+  bottom: 63.04%;
+  left: 10.39%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fule,
+.icon-map-fuel,
+.kmh {
+  position: absolute;
+}
+.fule {
+  top: 50px;
+  left: 0;
+  width: 77px;
+  height: 76px;
+}
+.kmh {
+  top: 56px;
+  left: 9px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.vector-icon {
+  position: absolute;
+  height: 18.42%;
+  width: 25.97%;
+  top: 13.16%;
+  right: 63.64%;
+  bottom: 68.42%;
+  left: 10.39%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.speed,
+.vector-icon1 {
+  position: absolute;
+  top: 50px;
+  left: 129px;
+  width: 77px;
+  height: 76px;
+}
+.vector-icon1 {
+  height: 22.37%;
+  width: 25.97%;
+  top: 11.84%;
+  right: 62.34%;
+  bottom: 65.79%;
+  left: 11.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.engine {
+  position: absolute;
+  top: 50px;
+  left: 258px;
+  width: 77px;
+  height: 76px;
+}
+.car-features {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.ac,
+.bluetooth,
+.doors,
+.gps,
+.manual8,
+.passengers {
+  position: absolute;
+  top: 47px;
+  left: 34px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  display: inline-block;
+  width: 86px;
+  height: 17px;
+}
+.ac,
+.bluetooth,
+.doors,
+.gps,
+.manual8 {
+  top: 83px;
+  width: 70px;
+}
+.bluetooth,
+.doors,
+.gps,
+.manual8 {
+  top: 120px;
+  width: 62px;
+}
+.doors,
+.gps,
+.manual8 {
+  top: 47px;
+  left: 208px;
+  width: 50px;
+}
+.gps,
+.manual8 {
+  top: 83px;
+  left: 212px;
+  width: 27px;
+}
+.manual8 {
+  top: 120px;
+  width: 46px;
+}
+.icon-bluetooth,
+.icon-users {
+  position: absolute;
+  height: 10.52%;
+  width: 7.75%;
+  top: 32.25%;
+  right: 92.25%;
+  bottom: 57.23%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-bluetooth {
+  height: 13.32%;
+  width: 5.81%;
+  top: 82.04%;
+  right: 94.19%;
+  bottom: 4.64%;
+}
+.icon-car-door,
+.icon-day-sunny,
+.icon-manual-gearbox,
+.vector-icon2 {
+  position: absolute;
+  height: 11.96%;
+  width: 7.93%;
+  top: 31.55%;
+  right: 23.46%;
+  bottom: 56.49%;
+  left: 68.6%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-day-sunny,
+.icon-manual-gearbox,
+.vector-icon2 {
+  height: 11.31%;
+  width: 6.25%;
+  top: 58.85%;
+  right: 24.39%;
+  bottom: 29.84%;
+  left: 69.35%;
+}
+.icon-day-sunny,
+.icon-manual-gearbox {
+  height: 17.96%;
+  width: 9.93%;
+  top: 82.04%;
+  right: 22.63%;
+  bottom: 0;
+  left: 67.44%;
+}
+.icon-day-sunny {
+  height: 14.73%;
+  width: 8.13%;
+  top: 54.69%;
+  right: 91.87%;
+  bottom: 30.58%;
+  left: 0;
+}
+.features,
+.specifications {
+  position: absolute;
+  top: 171px;
+  left: 0;
+  width: 258px;
+  height: 142.62px;
+  font-size: var(--regular-12p-size);
+}
+.specifications {
+  top: 152px;
+  left: 935px;
+  width: 335px;
+  height: 313.62px;
+  font-size: var(--font-size-3xs);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+.volkswagen-virtus-parent {
+  position: absolute;
+  top: 124px;
+  left: 0;
+  background-color: var(--color-lightblue);
+  width: 1437px;
+  height: 635px;
+  overflow: hidden;
+  font-size: var(--font-size-19xl);
+}
+.price8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.02em;
+}
+.day17,
+.price8 {
+  font-weight: 600;
+}
+.book,
+.day16 {
+  position: absolute;
+  left: 0;
+}
+.day16 {
+  top: 46px;
+  font-size: var(--font-size-12xl);
+  letter-spacing: 0.02em;
+  color: var(--color-gray-200);
+}
+.book {
+  top: 0;
+  width: 176px;
+  height: 84px;
+}
+.rent-now9 {
+  position: relative;
+  font-size: var(--font-size-7xl);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: var(--medium-type16);
+  color: var(--primary-0);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 155px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.button-rental8,
+.rent-now8 {
+  position: absolute;
+  top: 0;
+  height: 84px;
+}
+.button-rental8 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-xl);
+  background-color: var(--color-cadetblue);
+  right: 0;
+  border-radius: var(--br-9xs);
+  width: 325px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.rent-now8 {
+  left: 21px;
+  width: 679px;
+  font-size: var(--font-size-19xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.recomendation-car2 {
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 156px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.recomendation1 {
+  border-radius: var(--br-9xs);
+  width: 196px;
+  height: 44px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.button-rental9,
+.recomendation1,
+.rent-now10 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rent-now10 {
+  position: relative;
+  font-size: var(--medium-type16-size);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: var(--medium-type16);
+  color: var(--primary-0);
+  text-align: center;
+  width: 76px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.button-rental9 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-xl);
+  background-color: var(--color-cadetblue);
+  position: absolute;
+  top: 320px;
+  right: 24px;
+  border-radius: var(--br-9xs);
+  width: 116px;
+  height: 44px;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.l9,
+.vuesaxboldgas-station-icon8 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.l9 {
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 28px;
+  flex-shrink: 0;
+}
+.gasoline8 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.car-icon13,
+.manual9 {
+  position: relative;
+  height: 24px;
+  flex-shrink: 0;
+}
+.car-icon13 {
+  width: 24px;
+  overflow: hidden;
+}
+.manual9 {
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 48px;
+}
+.car9 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.people8 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 60px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.spesification8 {
+  position: absolute;
+  top: 272px;
+  left: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--bold-type14-size);
+  color: var(--secondary-300);
+}
+.vuesaxlinearheart-icon3 {
+  position: absolute;
+  top: 24px;
+  left: 256px;
+  width: 24px;
+  height: 24px;
+}
+.fortuner1,
+.suv4 {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  width: 128px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.suv4 {
+  font-size: var(--bold-type14-size);
+  letter-spacing: -0.02em;
+  color: var(--secondary-300);
+  height: 20px;
+}
+.car-name8 {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.f-1-icon1 {
+  position: absolute;
+  top: 122px;
+  left: 40px;
+  width: 224px;
+  height: 100px;
+  object-fit: cover;
+}
+.price9 {
+  position: absolute;
+  top: 316px;
+  left: 24px;
+}
+.day19 {
+  font-size: var(--bold-type14-size);
+  color: var(--secondary-300);
+}
+.day-txt8 {
+  width: 100%;
+}
+.day18,
+.shadow8 {
+  position: absolute;
+}
+.day18 {
+  top: 333px;
+  left: 24px;
+  display: flex;
+  align-items: center;
+  width: 128px;
+  height: 24px;
+}
+.shadow8 {
+  top: 167px;
+  left: 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0), #fff);
+  width: 304px;
+  height: 68px;
+}
+.catalog-12,
+.cr-v1,
+.people9 {
+  position: relative;
+  flex-shrink: 0;
+}
+.catalog-12 {
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-0);
+  width: 304px;
+  height: 388px;
+  overflow: hidden;
+}
+.cr-v1,
+.people9 {
+  display: flex;
+  align-items: center;
+  height: 24px;
+}
+.people9 {
+  font-weight: 500;
+  width: 60px;
+}
+.cr-v1 {
+  letter-spacing: -0.03em;
+  line-height: 150%;
+  white-space: pre-wrap;
+  width: 128px;
+}
+.day20,
+.price10 {
+  height: 44px;
+  display: flex;
+}
+.day20 {
+  position: relative;
+  align-items: center;
+  width: 128px;
+  flex-shrink: 0;
+}
+.price10 {
+  position: absolute;
+  top: 320px;
+  left: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.car-icon15 {
+  position: absolute;
+  top: 122px;
+  left: 28px;
+  width: 248px;
+  height: 100px;
+  object-fit: cover;
+}
+.range-rover1 {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  width: 140px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.land-rover-range-rover-sport-3-icon1 {
+  position: absolute;
+  top: 72px;
+  left: 0;
+  width: 297px;
+  height: 199px;
+  object-fit: cover;
+}
+.recomendation-11 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.recomendation-car-rent1,
+.recomendation-car3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--semibold-type20-size);
+  color: var(--secondary-500);
+}
+.recomendation-car-rent1 {
+  position: absolute;
+  top: 160px;
+  left: 4px;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--medium-type16-size);
+  color: var(--color-gray-100);
+  font-family: var(--medium-type16);
+}
+.gorent-all-rights1,
+.privacy-policy1,
+.terms-condition1 {
+  top: 901px;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  mix-blend-mode: normal;
+}
+.gorent-all-rights1 {
+  position: absolute;
+  left: 16px;
+  width: 292px;
+}
+.privacy-policy1,
+.terms-condition1 {
+  text-align: right;
+  width: 144px;
+}
+.terms-condition1 {
+  position: absolute;
+  left: 1192px;
+}
+.privacy-policy1 {
+  left: 988px;
+}
+.body,
+.line1,
+.privacy-policy1 {
+  position: absolute;
+}
+.line1 {
+  top: 862.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  width: 1321px;
+  height: 1px;
+}
+.body {
+  top: 759px;
+  left: 59px;
+  width: 1336px;
+  height: 925px;
+  font-size: var(--medium-type16-size);
+}
+.int {
+  position: relative;
+  background-color: var(--color-lightblue);
+  width: 100%;
+  height: 1731px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--bold-type32-size);
+  color: var(--secondary-500);
+  font-family: var(--medium-type16);
+}
